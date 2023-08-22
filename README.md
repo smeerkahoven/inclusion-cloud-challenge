@@ -20,6 +20,13 @@ una vez compilado se debe ejecutar desde consola
 
 para que la aplicacion corra en modo standalone/web.
 
+## Test
+
+```sh
+./gradlew test
+```
+
+
 ## Standalone
 
 La aplicacion leerá desde 
@@ -67,3 +74,10 @@ En caso de éxito la aplicacion retornará un json
 
 ```
 mostrando el resultado del cálculo
+
+## Desarrollo
+
+Se realizaron usando 
+- Intellij IDEA CE 2022.2
+- Java 11
+- Spring Boot
